@@ -10,7 +10,6 @@ def parser_arguments():
     option.add_option('-i','--IPAddress',dest = 'ip',
     help = 'This field use for the IP address')
     (option, _)=option.parse_args()
-    import pdb; pdb.set_trace()
     return option.ip
 
 def main():
